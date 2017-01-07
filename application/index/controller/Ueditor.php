@@ -158,7 +158,7 @@ class Ueditor extends Controller{
 			);
 		}else{
 			$data=array(
-			    'state' => $upload->getError(),
+			    'state' => $info->getError(),
 			);
 		}
 		return json_encode($data);
